@@ -1,0 +1,40 @@
+.div_row {
+  background-color: #111827;
+  padding: 70px 120px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  :nth-child(1) {
+    color: #eab308;
+  }
+  h3 {
+    color: white;
+    overflow: hidden;
+  }
+  :nth-child(3) {
+    color: rgb(182, 182, 182);
+  }
+  button{
+    background-color: #eab308;
+    color: #111827;
+  }
+}
+
+.sec_1 {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    border-radius: 10px;
+    height: 18rem;
+    min-width: 90%;
+    background-color: #6b7280;
+  }
+}
+//media screen

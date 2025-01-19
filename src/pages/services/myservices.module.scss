@@ -1,0 +1,78 @@
+.container {
+  background-color: #020617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myservice {
+  background-color: #020617;
+  //   padding: 70px 120px;
+  width: 60%;
+
+  .boxes {
+    margin-top: 20px;
+    gap: 10px;
+    :hover {
+      background-color: #020617;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #111827;
+      padding: 10px;
+      h3 {
+        color: white;
+        overflow: hidden;
+        text-align: center;
+      }
+      p {
+        color: grey;
+        text-align: center;
+        overflow-wrap: anywhere;
+      }
+      //   padding: px
+    }
+  }
+}
+
+.service {
+  text-align: start;
+  width: 60%;
+
+  h2 {
+    color: white;
+    overflow-y: hidden;
+    span {
+      color: #ffc107;
+    }
+  }
+  p {
+    color: grey;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .myservice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .service {
+    padding-top: 10px;
+    // margin-top: 10px;
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+  }
+
+  .boxes {
+    div {
+    }
+  }
+}

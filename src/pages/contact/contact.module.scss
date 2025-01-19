@@ -1,0 +1,76 @@
+.container {
+  background-color: #020617;
+  //   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_screen {
+  width: 70%;
+  padding: 30px 0;
+}
+.box1 {
+  text-align: center;
+  h2 {
+    overflow-y: hidden;
+    color: white;
+    span {
+      color: #ffc107;
+    }
+  }
+  p {
+    color: gray;
+  }
+}
+
+.info {
+  display: grid;
+  gap: 20px;
+  h6 {
+    color: white;
+    overflow-y: hidden;
+    font-size: medium;
+    overflow-wrap: break-word;
+  }
+  span {
+    color: #ffc107;
+  }
+}
+
+.inputs {
+  display: grid;
+  gap: 5px;
+  button {
+    background-color: #ffc107;
+    color: #020617;
+    width: 8rem;
+  }
+}
+.textarea {
+  outline: none;
+  border: none;
+  color: gray;
+  padding: 5px;
+  background-color: #020617;
+}
+.inp {
+  background-color: #020617;
+  border: none;
+  color: gray;
+  padding: 10px;
+  outline: none;
+  width: 80%;
+}
+.col_1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 320px) {
+  .inputs {
+    button {
+      width: 60%;
+    }
+  }
+}
