@@ -15,9 +15,14 @@ const Home = () => {
           <p>Hello Welcome</p>
           <h3>I'm Hammad Imran</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            perferendis maiores non reiciendis rerum quae delectus tempore
-            adipisci temporibus, atque excepturi fugit doloribus?
+            I'm a passionate MERN Stack Developer with experience in building
+            dynamic, scalable, and user-friendly web applications. I specialize
+            in React.js, Next.js, Node.js, and MongoDB, creating seamless
+            frontend experiences and efficient backend solutions. With a strong
+            focus on performance, security, and real-time features, I integrate
+            technologies like Redux Toolkit, WebSockets, and Stripe API to
+            enhance functionality. Always eager to learn and grow, I aim to
+            build impactful digital solutions
           </p>
           <button className={`btn btn-dark`}>Contact Us</button>
         </div>

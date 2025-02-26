@@ -10,25 +10,22 @@ const MyServices = () => {
       title: "Digital",
       title2: " Marketing",
       image: image1,
-      desc: "dsadsadsakjdkjsadkjsadjksadksaj",
     },
     {
       id: 2,
       title: "Web ",
       title2: "Development",
       image: image2,
-      desc: "dsadsadsakjdkjsadkjsadjksadksaj",
     },
     {
       id: 3,
       title: "Creative ",
       title2: "Graphic Design",
       image: image3,
-      desc: "dsadsadsakjdkjsadkjsadjksadksaj",
     },
   ];
   return (
-    <div className={`${style.container} `} >
+    <div className={`${style.container} `}>
       <div
         className={`${style.myservice} d-flex p-1 p-md-1 flex-column  flex-md-column`}
       >
@@ -37,9 +34,10 @@ const MyServices = () => {
             My <span>Services </span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            consequatur quasi vero iste aut excepturi itaque, labore quaerat
-            aliquid!{" "}
+            I build scalable MERN stack applications with React.js, Next.js,
+            Node.js, and MongoDB, ensuring seamless UI/UX, secure
+            authentication, real-time features, API integrations, and smooth
+            deployments on Netlify, Vercel, and AWS{" "}
           </p>
         </div>
 
